@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/home1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Transparent black */
+    backdrop-filter: blur(5px); /* Smooth glass effect */
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 33px;
+    color: rgb(0, 206, 199);
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); /* Adding a shadow effect to the logo */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for logo effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Enlarge the logo on hover */
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+/* Underline effect on hover */
+nav ul li a:hover,
+nav ul li a:focus {
+    color: rgb(0, 206, 199); /* Highlight the links */
+    border-bottom: 3px solid rgb(0, 206, 199); /* Underline effect */
+}
+
+/* Button */
+button {
+    border: none;
+    background: rgba(0, 206, 199); /* Less transparent, giving a slight transparency effect */
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: rgb(0, 206, 199); /* Solid color on hover */
+}
+
+
+.destinations {
+    text-align: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+.destinations h2{
+    font-size: 35px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+/* Footer Section */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #f7c08a;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd;
+}

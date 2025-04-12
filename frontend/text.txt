@@ -1,0 +1,51 @@
+Project Structure:
+
+1. **Frontend**
+   - index.html (Home Page)
+   - about.html (About Us Page)
+   - destinations.html (Destinations Page)
+   - contact.html (Contact Page)
+   - styles.css (CSS Styles)
+   - script.js (JavaScript Functionality)
+
+2. **Backend** (PHP & MySQL)
+   - db.php (Database Connection)
+   - book.php (Booking System)
+   - admin.php (Admin Panel)
+   - process_booking.php (Handles Booking Requests)
+
+3. **Database**
+   - travel.sql (Database Structure & Sample Data)
+
+I'll now start adding each file's source code step by step.
+
+
+
+
+/travelism
+│── /admin               # Admin panel
+│   ├── index.php        # Admin Dashboard
+│   ├── login.php        # Admin Login
+│   ├── manage_destinations.php  # Manage Destinations
+│   ├── manage_bookings.php  # Manage Bookings
+│   ├── styles.css       # Admin styles
+│── /images              # Images folder
+│── /config              # Configuration files
+│   ├── db.php           # Database connection
+│── /includes            # Common files
+│   ├── header.php       # Navbar
+│   ├── footer.php       # Footer
+│── index.php            # Homepage
+│── about.php            # About Us page
+│── destinations.php     # Destinations listing
+│── destination.php      # Single destination details
+│── contact.php          # Contact page
+│── register.php         # User Registration
+│── login.php            # User Login
+│── logout.php           # Logout
+│── book.php             # Booking Page
+│── styles.css           # Main CSS file
+│── script.js            # JavaScript file
+│── .htaccess            # URL rewriting
+│── database.sql         # Database structure
+

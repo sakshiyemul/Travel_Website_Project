@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .show-more-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #00bcd4;
+    color: white !important;        /* Force white text */
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 188, 212, 0.3);
+    z-index: 999;
+}
+
+.show-more-btn:hover {
+    background-color: #0097a7;
+    transform: translateY(-2px);
+    color: white !important;
+}
+    
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Travelism</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="destinations.php">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           <a href="registration.html"><button type="button">Register Here</button></a>
+        </nav>
+    </div>
+
+    <!-- Top Destinations Section -->
+    <section class="destinations">
+        <h2>Top Destinations</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/rishikesh.jpg" alt="Rishikesh">
+                <div class="card-content">
+                    <h3>Rishikesh</h3>
+                    <p>Located in the foothills of the Himalayas, known as the Yoga capital of the world.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/mumbai.jpg" alt="Mumbai">
+                <div class="card-content">
+                    <h3>Mumbai</h3>
+                    <p>Vibrant metropolis known for its skyline and Bollywood industry.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/manali.jpg" alt="Manali">
+                <div class="card-content">
+                    <h3>Manali</h3>
+                    <p>Enjoy snow-capped mountains, adventure sports, and scenic beauty.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/goa.jpg" alt="Goa">
+                <div class="card-content">
+                    <h3>Goa</h3>
+                    <p>Experience beautiful beaches, nightlife, and Portuguese culture.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/jaypur.jpg" alt="Jaipur">
+                <div class="card-content">
+                    <h3>Jaipur</h3>
+                    <p>Discover royal palaces, forts, and the rich heritage of Rajasthan.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/kerala.jpg" alt="Kerala">
+                <div class="card-content">
+                    <h3>Kerala</h3>
+                    <p>Explore tea plantations, backwaters, and houseboats.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Show More Button -->
+        <div class="show-more">
+            <a href="destinations.php" class="show-more-btn">Show More &raquo;</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h3 class="logo">Travelism</h3>
+                <p>Discover your next adventure with us.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: support@travelism.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Travelism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
